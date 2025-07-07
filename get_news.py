@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 API_KEY = os.environ.get("NEWS_API_KEY")
 
 # 검색할 키워드 목록
-KEYWORDS = ["미국", "부동산", "비트코인"]
+KEYWORDS = ["미국 경제", "부동산", "비트코인"]
 
 # 결과를 저장할 파일 이름
 OUTPUT_FILE = "news_list.txt"
