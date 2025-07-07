@@ -6,17 +6,26 @@ from datetime import datetime
 API_KEY = os.environ.get("NEWS_API_KEY")
 
 # 검색할 키워드 목록
-KEYWORDS = ["미국", "부동산", "가상화폐"]
+KEYWORDS = ["미국", "부동산", "비트코인"]
 
 # 결과를 저장할 파일 이름
 OUTPUT_FILE = "news_list.txt"
 
 def fetch_top_news():
+    # 오늘 날짜 (UTC 기준)를 YYYY-MM-DD 형식으로 가져옵니다.
+    today_utc = datetime.utcnow().strftime('%Y-%m-%d')
+
     all_news = []
     for keyword in KEYWORDS:
-        print(f"Fetching news for '{keyword}'...")
-        # NewsAPI에 요청을 보냅니다. (한국어, 인기순)
-        url = f"https://newsapi.org/v2/everything?q={keyword}&language=ko&sortBy=popularity&apiKey={API_KEY}"
+        print(f"Fetching news for '{keyword}' published on {today_utc}...")
+        # NewsAPI에 요청을 보낼 때, from과 to 파라미터로 날짜를 '오늘'로 고정합니다.
+        url = (f"https://newsapi.org/v2/everything?"
+               f"q={keyword}&"
+               f"from={today_utc}&"
+               f"to={today_utc}&"
+               f"language=ko&"
+               f"sortBy=popularity&"
+               f"apiKey={API_KEY}")
 
         try:
             response = requests.get(url)
@@ -30,7 +39,7 @@ def fetch_top_news():
                 all_news.append(f"URL: {top_article['url']}\n")
                 print(f"  -> Found: {top_article['title']}")
             else:
-                print(f"  -> No articles found.")
+                print(f"  -> No articles found for today.")
         except requests.exceptions.RequestException as e:
             print(f"Error fetching news for {keyword}: {e}")
 
