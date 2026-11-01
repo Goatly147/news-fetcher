@@ -1,13 +1,9 @@
-뉴스 업데이트 시간: 2026-10-31 15:58:53
-
-주제: 미국 경제
-제목: 깃허브 "올해 韓 이용자 350만 명…정부 AI 정책 영향"
-URL: https://zdnet.co.kr/view/?no=20261030234712
+뉴스 업데이트 시간: 2026-11-01 17:02:19
 
 주제: 부동산
-제목: 이 대통령 국정지지율 39%, 서울 지역 긍정평가는 상승
-URL: https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003280157
+제목: jibsa 0.9.0
+URL: https://pypi.org/project/jibsa/0.9.0/
 
 주제: 비트코인
-제목: 바이낸스서 7.6조원 해킹 피해 추정…역대 최대 규모
-URL: https://zdnet.co.kr/view/?no=20261030094617
+제목: 바이낸스서 가상화폐 8.4조 원 해킹... 사상 최대 규모
+URL: https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003280395
