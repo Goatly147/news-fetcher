@@ -1,9 +1,9 @@
-뉴스 업데이트 시간: 2026-11-01 17:02:19
+뉴스 업데이트 시간: 2026-11-02 20:39:46
 
 주제: 부동산
-제목: jibsa 0.9.0
-URL: https://pypi.org/project/jibsa/0.9.0/
+제목: 서울 아파트값 90주째 오르고 전월세 7~8% 뛰었는데…대통령 “자산시장 정상화”
+URL: https://www.khan.co.kr/article/202611011714001
 
 주제: 비트코인
-제목: 바이낸스서 가상화폐 8.4조 원 해킹... 사상 최대 규모
-URL: https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003280395
+제목: 바이낸스, 탈취자산 90% 보전... "1일 입출금 재개"
+URL: https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003280552
